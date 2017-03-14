@@ -1,0 +1,150 @@
+@media screen
+  and (min-device-width: 481px) 
+  and (max-device-width: 1600px) { 
+  
+  /***************
+  NAV
+  ***************/
+  nav {
+    font-size: 8px;
+    line-height: 15px;
+  }
+
+  ul.mainNav {
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+
+  ul.languages {
+    text-align: center;
+    position: relative;
+    padding: 40px 0;
+    margin: 0;
+    
+  }
+
+  ul.mainNav {
+    margin: auto;
+  }
+
+  ul.languages {
+    margin-right: 20px;
+  }
+
+  .mainNav li, .languages li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+
+  /***************
+  VIDEO
+  ***************/
+
+  video {
+    width: 50%;
+    position: fixed;
+    left: 50%;
+    top: 44%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+  }
+
+
+/*********************
+STORE CONTENT
+*********************/
+
+.mainContent {
+  margin: 0 0 350px 12%;
+  padding-left: 20px;
+  display:block;
+  clear:both;
+  position: relative;
+  top: 150px;
+  display:none;
+}
+
+.storeInfo {
+  display: table;
+  width: 75%;
+}
+
+table {
+  margin: 0 auto;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-family: "NEUTRAFACE 2 TEXT DEMI";
+  font-size: 7.5px;
+  line-height: 15px;
+  letter-spacing: 0.3em;
+  max-width: 110px;
+}
+
+h3 {
+  margin: 6px 0;
+}
+
+th {
+  text-align: left;
+  padding: 0 7px;
+  vertical-align: top;
+}
+
+.mainContent ul, h3 {
+  font-family: "NEUTRAFACE 2 TEXT LIGHT";
+  font-size: 7.5px;
+  line-height: 15px;
+  letter-spacing: 0.3em;
+  list-style: none;
+}
+
+table {
+  font-family: "NEUTRAFACE 2 TEXT LIGHT";
+  font-size: 7.5px;
+  line-height: 15px;
+  letter-spacing: 0.3em; 
+}
+
+.mainContent ul {
+  border-left: 1px solid lightgrey;
+}
+
+h3.first {
+  padding-left: 5px;
+  border-left: 1px solid lightgrey;
+}
+
+h3.removeMarg {
+  margin-bottom: -7px;
+}
+
+  /***************
+  FOOTER
+  ***************/
+
+  .logo {
+    top: 550px;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+
+  footer h1 {
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 30px;
+  }
+}

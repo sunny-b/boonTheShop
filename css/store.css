@@ -1,0 +1,222 @@
+/*********************
+FONTS
+*********************/
+@font-face {
+  font-family: "NEUTRAFACE 2 TEXT LIGHT";
+  src: url(../fonts/Neutra2Text-Light.otf);
+}
+
+@font-face {
+  font-family: "NEUTRAFACE 2 TEXT DEMI";
+  src: url(../fonts/Neutra2Text-Demi.otf);
+}
+@font-face {
+  font-family: "NANUM GOTHIC BOLD";
+  src: url(../fonts/NanumGothic-Bold.ttf);
+}
+@font-face {
+  font-family: "NANUM GOTHIC REGULAR";
+  src: url(../fonts/NanumGothic-Regular.ttf);
+}
+
+/***************
+FADE-IN EFFECT
+***************/
+
+html {
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
+
+/*********************
+NAV
+*********************/
+
+nav {
+  font-family: "NEUTRAFACE 2 TEXT LIGHT", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.3em;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+ul.mainNav, ul.languages {
+  text-align: center;
+  position: relative;
+  padding: 40px 0;
+}
+
+ul.mainNav {
+  float: left;
+  margin-left: 12%;
+}
+
+ul.languages {
+  float: right;
+  margin-right: 12%;
+}
+
+.mainNav li, .languages li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav a {
+  padding-bottom: 5px;
+}
+
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav a.selected, nav a:hover {
+  border-bottom: 1px solid black;
+}
+
+/*********************
+STORE CONTENT
+*********************/
+
+.storeInfo {
+  display:none;
+}
+
+table {
+  margin-left: -3px;
+}
+
+.mainContent {
+  margin: 0 0 400px 12%;
+  padding-left: 20px;
+  display:block;
+  clear:both;
+  position: relative;
+  top: 150px;
+}
+
+h2 {
+  font-family: "NEUTRAFACE 2 TEXT DEMI";
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.3em;
+}
+
+h3 {
+  margin:0;
+}
+
+th {
+  text-align: left;
+}
+
+.firstCol {
+  max-width: 270px;
+}
+
+.mainContent ul, h3 {
+  font-family: "NEUTRAFACE 2 TEXT LIGHT";
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.3em;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.mainContent ul, h3.first {
+  border-left: 1px solid lightgrey;
+}
+
+.removeMore {
+  margin-bottom:-5px;
+}
+
+.mainContent pre {
+  font-family: "NEUTRAFACE 2 TEXT LIGHT";
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.3em;
+  margin:0;
+}
+
+
+/*********************
+FOOTER
+*********************/
+
+footer {
+  display: block;
+}
+
+.logo {
+  position: fixed;
+  bottom: 0;
+  padding-top: 40px;
+  height: 250px;
+  background-color: white;
+  left: 0;
+  right: 0;
+}
+
+.logo img {
+  width: 72%;
+  margin-left: 12%;
+  padding-left: 20px;
+}
+
+footer h1 {
+  font-family: "NEUTRAFACE 2 TEXT LIGHT", sans-serif;
+  font-size: 26px;
+  line-height:  45px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.blackBar {
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  background-color: black;
+  bottom:0;
+}
